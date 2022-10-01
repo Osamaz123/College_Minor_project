@@ -16,12 +16,14 @@ android:orientation="horizontal"
         android:id="@+id/addNotice"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            >
             <ImageView
                 android:layout_width="64dp"
                 android:layout_height="64dp"
@@ -52,7 +54,7 @@ android:orientation="horizontal"
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/addGallery"
+        android:id="@+id/addGalleryImage"
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_margin="10dp">
