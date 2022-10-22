@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
    private CardView uploadNotice;
   private   CardView addGalleryImage;
+  private   CardView addEbook;
 
 
     @Override
@@ -21,10 +22,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         uploadNotice = findViewById(R.id.addNotice);
         addGalleryImage =findViewById(R.id.addGalleryImage);
+        addEbook = findViewById(R.id.addEbook);
 
         uploadNotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
-
+        addEbook.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +42,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                  intent = new Intent(MainActivity.this,UploadImage.class);
                 startActivity(intent);
                 break;
+            case R.id.addEbook:
+                 intent = new Intent(MainActivity.this,UploadPdfActivity.class);
+                startActivity(intent);
+                break;
+
+
         }
 
     }
