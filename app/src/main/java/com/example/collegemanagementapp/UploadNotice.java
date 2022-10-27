@@ -42,7 +42,7 @@ public class UploadNotice extends AppCompatActivity {
     private Button uploadNoticeBtn;
 
     //for database
-    private DatabaseReference reference;
+    private DatabaseReference reference, dbRef;
     private  StorageReference storageReference;
 
     //to store url of Image
@@ -129,10 +129,10 @@ public class UploadNotice extends AppCompatActivity {
     }
 
     private void uploadData() {
-reference = reference.child("Notice");
+dbRef = reference.child("Notice");
 
 //to generate a unique key to store all data
-final  String uniqueKey = reference.push().getKey();
+final  String uniqueKey = dbRef.push().getKey();
 
 String title = noticeTitle.getText().toString();
 
@@ -152,7 +152,7 @@ String title = noticeTitle.getText().toString();
        NoticeData noticeData = new NoticeData(title,downloadUrl,date,time,uniqueKey);
 
        //to store data in firebase
-        reference.child(uniqueKey).setValue(noticeData).addOnSuccessListener(new OnSuccessListener<Void>() {
+        dbRef.child(uniqueKey).setValue(noticeData).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {
                 pd.dismiss();
