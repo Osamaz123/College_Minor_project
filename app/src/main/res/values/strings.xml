@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">College Management App</string>
+    <string name="todo">TODO</string>
+    <string name="computer_engineering">Computer Engineering</string>
+    <string name="electronics_and_communication_engineering">Electronics and Communication Engineering</string>
+    <string name="mechanical_department">Mechanical Department</string>
+    <string name="electrical_department">Electrical Department</string>
+    <string name="civil_department">Civil Department</string>
+    <string name="chemical_department">Chemical Department</string>
+    <string name="petrochemical_department">Petrochemical Department</string>
 </resources>

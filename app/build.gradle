@@ -46,4 +46,7 @@ dependencies {
 // When using the BoM, don't specify versions in Firebase dependencies
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //image loader library
+    //P.S: We Can use Glide also
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }
