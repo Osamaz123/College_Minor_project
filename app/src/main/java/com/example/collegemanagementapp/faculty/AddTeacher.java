@@ -116,6 +116,8 @@ storageReference = FirebaseStorage.getInstance().getReference();
             Toast.makeText(this, "Please provide teacher category", Toast.LENGTH_SHORT).show();
 
         }else if(bitmap==null){
+            pd.setMessage("Uploading..");
+            pd.show();
             insertData();
         }else{
             pd.setMessage("Uploading..");

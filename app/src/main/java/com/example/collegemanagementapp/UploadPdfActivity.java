@@ -75,7 +75,7 @@ public class UploadPdfActivity extends AppCompatActivity {
         pdfTextView = findViewById(R.id.pdfTextView);
 
 
-        addPdf.setOnClickListener(view -> openGallery());
+        addPdf.setOnClickListener(view ->   openGallery());
         uploadPdfBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
