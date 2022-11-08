@@ -6,9 +6,10 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import com.example.collegemanagementapp.faculty.UpdateFaculty;
+import com.example.collegemanagementapp.notice.DeleteNoticeActivity;
+import com.example.collegemanagementapp.notice.UploadNotice;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   private   CardView addGalleryImage;
   private   CardView addEbook;
     private   CardView faculty;
+    private CardView deleteNotice;
 
 
     @Override
@@ -27,11 +29,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         addGalleryImage =findViewById(R.id.addGalleryImage);
         addEbook = findViewById(R.id.addEbook);
         faculty = findViewById(R.id.faculty);
+        deleteNotice = findViewById(R.id.deleteNotice);
 
         uploadNotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
         addEbook.setOnClickListener(this);
         faculty.setOnClickListener(this);
+        deleteNotice.setOnClickListener(this);
     }
 
     @Override
@@ -40,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
 
             case R.id.addNotice:
-                 intent = new Intent(MainActivity.this,UploadNotice.class);
+                 intent = new Intent(MainActivity.this, UploadNotice.class);
                 startActivity(intent);
                 break;
             case R.id.addGalleryImage:
@@ -55,6 +59,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                  intent = new Intent(MainActivity.this, UpdateFaculty.class);
                 startActivity(intent);
                 break;
+            case R.id.deleteNotice:
+                 intent = new Intent(MainActivity.this, DeleteNoticeActivity.class);
+                startActivity(intent);
+                break;
+
 
 
         }

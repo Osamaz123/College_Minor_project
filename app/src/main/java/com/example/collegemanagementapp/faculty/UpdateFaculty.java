@@ -92,7 +92,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     csDepartment.setHasFixedSize(true);
                     csDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list1, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list1, UpdateFaculty.this,"Computer Engineering");
                     csDepartment.setAdapter(adapter);
 
                 }
@@ -127,7 +127,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     electronicsDepartment.setHasFixedSize(true);
                     electronicsDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list2, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list2, UpdateFaculty.this,"Electronics and Communication");
                     electronicsDepartment.setAdapter(adapter);
                 }
             }
@@ -160,7 +160,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     electricalDepartment.setHasFixedSize(true);
                     electricalDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list3, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list3, UpdateFaculty.this,"Electrical");
                     electricalDepartment.setAdapter(adapter);
                 }
             }
@@ -193,7 +193,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     mechanicalDepartment.setHasFixedSize(true);
                     mechanicalDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list4, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list4, UpdateFaculty.this,"Mechanical");
                     mechanicalDepartment.setAdapter(adapter);
                 }
             }
@@ -227,7 +227,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     civilDepartment.setHasFixedSize(true);
                     civilDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list5, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list5, UpdateFaculty.this,"Civil");
                     civilDepartment.setAdapter(adapter);
                 }
             }
@@ -259,7 +259,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     chemicalDepartment.setHasFixedSize(true);
                     chemicalDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list6, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list6, UpdateFaculty.this,"Chemical");
                     chemicalDepartment.setAdapter(adapter);
                 }
             }
@@ -291,7 +291,7 @@ public class UpdateFaculty extends AppCompatActivity {
                     }
                     petroDepartment.setHasFixedSize(true);
                     petroDepartment.setLayoutManager(new LinearLayoutManager(UpdateFaculty.this));
-                    adapter = new TeacherAdapter(list7, UpdateFaculty.this);
+                    adapter = new TeacherAdapter(list7, UpdateFaculty.this,"Petrochemical");
                     petroDepartment.setAdapter(adapter);
                 }
             }

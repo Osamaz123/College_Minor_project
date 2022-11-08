@@ -66,7 +66,7 @@ reference = FirebaseDatabase.getInstance().getReference().child("teacher");
 storageReference = FirebaseStorage.getInstance().getReference();
 
 
-        String[] items = new String[]{"Select Category", "Computer Engineering", " Electronics and Communication", "Electrical", "Mechanical","Civil","Chemical", "Petrochemical"};
+        String[] items = new String[]{"Select Category", "Computer Engineering", "Electronics and Communication", "Electrical", "Mechanical","Civil","Chemical", "Petrochemical"};
 
         addTeacherCategory.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items));
 

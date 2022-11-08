@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".faculty.UpdateFaculty">
+    tools:context=".faculty.UpdateFaculty"
+    android:padding="5dp">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
@@ -49,7 +50,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:id="@+id/csDepartment"
             android:nestedScrollingEnabled="false"
             />
@@ -81,7 +82,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:id="@+id/electronicsDepartment"
             android:nestedScrollingEnabled="false"
             />
@@ -114,7 +115,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:id="@+id/electricalDepartment"
             android:nestedScrollingEnabled="false"
             />
@@ -147,7 +148,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:id="@+id/mechanicalDepartment"
             android:nestedScrollingEnabled="false"
             />
@@ -180,7 +181,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:id="@+id/civilDepartment"
             android:nestedScrollingEnabled="false"
             />
@@ -213,7 +214,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:id="@+id/chemicalDepartment"
             android:nestedScrollingEnabled="false"
             />
@@ -247,7 +248,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
+                android:visibility="gone"
                 android:id="@+id/petroDepartment"
                 android:nestedScrollingEnabled="false"
                 />
