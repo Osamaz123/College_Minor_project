@@ -9,9 +9,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:gravity="center"
-        android:text="No_Data_Found"
+        android:text="No Data Found"
 
-        android:textColor="@color/textColor"
+        android:textColor="@color/lightGray"
         android:textSize="20sp" />
 
 

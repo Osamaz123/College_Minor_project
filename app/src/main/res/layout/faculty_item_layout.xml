@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="4dp">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +20,7 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1.5"
                 android:paddingLeft="12dp"
                 android:orientation="vertical"
@@ -29,9 +32,9 @@
                     android:id="@+id/teacherName"
                     android:text="Shakir Khan"
                     android:textColor="@color/textColor"
-                    android:textSize="18sp">
+                    android:textSize="18sp"/>
 
-                </TextView>
+
                 //for teacher post
                 <TextView
                     android:layout_width="match_parent"
@@ -39,9 +42,9 @@
                     android:id="@+id/teacherPost"
                     android:text="principal"
                     android:textColor="@color/textColor"
-                    android:textSize="18sp">
+                    android:textSize="18sp"/>
 
-                </TextView>
+
                 //for teacher email
                 <TextView
                     android:layout_width="match_parent"
@@ -49,14 +52,14 @@
                     android:id="@+id/teacherEmail"
                     android:text="shahahmed86@gmail.com"
                     android:textColor="@color/textColor"
-                    android:textSize="18sp">
+                    android:textSize="18sp"/>
 
-                </TextView>
+
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/teacherUpdate"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                       android:text="update_Info"
                     android:layout_marginVertical="4dp"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
