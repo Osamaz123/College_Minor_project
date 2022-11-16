@@ -5,19 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UploadImage"
+    android:background="@color/backColor"
     >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="20dp">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/addGalleryImage"
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -26,7 +28,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circle_yellow"
+                    android:background="@drawable/circle_purple"
                     android:src="@drawable/ic_image"
                     android:padding="15dp"
 
@@ -45,7 +47,7 @@
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                    android:textColor="@color/colorPrimary"/>
 
 
 
