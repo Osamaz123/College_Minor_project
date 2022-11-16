@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">College Management App</string>
+    <string name="app_name">Admin College App</string>
+    <string name="upload_notice">Upload Notice</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_ebook">Upload E-Book</string>
+    <string name="update_faculty">Update Faculty</string>
+    <string name="delete_notice">Delete Notice</string>
+    <string name="add_teacher">Add Faculty</string>
     <string name="todo">TODO</string>
     <string name="computer_engineering">Computer Engineering</string>
     <string name="electronics_and_communication_engineering">Electronics and Communication Engineering</string>

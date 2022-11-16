@@ -14,27 +14,30 @@
         android:theme="@style/Theme.CollegeManagementApp" >
         <activity
             android:name=".notice.DeleteNoticeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".notice.DeleteNotice"
+android:label="@string/delete_notice"
             android:exported="false" />
         <activity
             android:name=".faculty.UpdateTeacherActivity"
+            android:label="@string/update_faculty"
             android:exported="false" />
         <activity
             android:name=".faculty.AddTeacher"
+            android:label="@string/add_teacher"
             android:exported="false" />
         <activity
             android:name=".faculty.UpdateFaculty"
             android:exported="false" />
         <activity
             android:name=".UploadPdfActivity"
+            android:label="@string/upload_ebook"
             android:exported="false" />
         <activity
             android:name=".UploadImage"
+            android:label="@string/upload_image"
             android:exported="false" />
         <activity
             android:name=".notice.UploadNotice"
+            android:label="@string/upload_notice"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

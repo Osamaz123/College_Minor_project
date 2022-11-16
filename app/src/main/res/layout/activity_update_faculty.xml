@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".faculty.UpdateFaculty"
+    android:background="@color/backColor"
     android:padding="5dp">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

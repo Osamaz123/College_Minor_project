@@ -5,19 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".notice.UploadNotice"
->
+    android:background="#D6E8F6"
+
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="20dp">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/addImage"
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -45,7 +48,7 @@
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/textColor"/>
+                    android:textColor="@color/colorPrimary"/>
 
 
 
@@ -83,6 +86,7 @@
                 android:id="@+id/noticeImageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:scaleType="centerCrop"/>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>

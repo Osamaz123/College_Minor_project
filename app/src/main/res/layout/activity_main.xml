@@ -5,18 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="#D6E8F6"
+
     android:orientation="vertical">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
 android:orientation="horizontal"
     android:gravity="center"
-    android:layout_margin="5dp">
+    android:layout_marginTop="25dp"
+    >
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/addNotice"
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_margin="10dp"
+        android:elevation="5dp"
         app:cardCornerRadius="10dp">
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,7 +61,9 @@ android:orientation="horizontal"
         android:id="@+id/addGalleryImage"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -103,7 +109,9 @@ android:orientation="horizontal"
         android:id="@+id/addEbook"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -141,7 +149,9 @@ android:orientation="horizontal"
         android:id="@+id/faculty"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="10dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -188,7 +198,9 @@ android:orientation="horizontal"
         android:id="@+id/deleteNotice"
         android:layout_width="130dp"
         android:layout_height="150dp"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+         android:elevation="5dp"
+         app:cardCornerRadius="10dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
